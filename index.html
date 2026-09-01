@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Subhojeet Prasad</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&display=swap" rel="stylesheet">
+<style>
+
+  * { box-sizing: border-box; }
+
+  body {
+    font-family: 'VT323', monospace;
+    font-size: 20px;
+    max-width: 760px;
+    margin: 30px auto 80px auto;
+    padding: 0 16px;
+    color: #101010;
+    background: #eeeeee;
+    background-image:
+      linear-gradient(#e4e4e4 1px, transparent 1px),
+      linear-gradient(90deg, #e4e4e4 1px, transparent 1px);
+    background-size: 24px 24px;
+    line-height: 1.4;
+  }
+
+  h1, h2, h3, .btn, nav a {
+    font-family: 'Press Start 2P', monospace;
+  }
+
+  /* ---- header ---- */
+
+  header {
+    background: #ffffff;
+    border: 3px solid #000;
+    box-shadow: 6px 6px 0 #000;
+    padding: 18px 20px;
+    margin-bottom: 20px;
+  }
+
+  h1 {
+    font-size: 22px;
+    margin: 0 0 10px 0;
+    line-height: 1.5;
+  }
+
+  .tagline {
+    font-size: 20px;
+    color: #333;
+    margin: 0 0 16px 0;
+  }
+
+  /* ---- beveled pixel buttons ---- */
+
+  .btn, nav a, .linkbtn {
+    display: inline-block;
+    font-size: 11px;
+    text-decoration: none;
+    color: #000;
+    background: #d4d0c8;
+    border-top: 2px solid #fff;
+    border-left: 2px solid #fff;
+    border-right: 2px solid #6b6b6b;
+    border-bottom: 2px solid #6b6b6b;
+    padding: 8px 10px;
+    margin: 3px 4px 3px 0;
+    box-shadow: 1px 1px 0 #000;
+  }
+
+  .btn:active, nav a:active, .linkbtn:active {
+    border-top: 2px solid #6b6b6b;
+    border-left: 2px solid #6b6b6b;
+    border-right: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+    transform: translate(1px, 1px);
+    box-shadow: none;
+  }
+
+  .btn:hover, nav a:hover, .linkbtn:hover {
+    background: #e2ded6;
+  }
+
+  .contact-row, .link-row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  /* ---- nav ---- */
+
+  nav {
+    background: #ffffff;
+    border: 3px solid #000;
+    box-shadow: 6px 6px 0 #000;
+    padding: 14px 16px;
+    margin-bottom: 28px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  nav a { font-size: 10px; }
+
+  /* ---- sections ---- */
+
+  section {
+    background: #ffffff;
+    border: 3px solid #000;
+    box-shadow: 6px 6px 0 #000;
+    padding: 20px 22px;
+    margin-bottom: 26px;
+  }
+
+  h2 {
+    font-size: 14px;
+    margin: 0 0 18px 0;
+    padding-bottom: 10px;
+    border-bottom: 3px dashed #000;
+  }
+
+  h2::before { content: "// "; color: #888; }
+
+  h3 {
+    font-size: 13px;
+    margin: 0 0 4px 0;
+  }
+
+  .meta {
+    color: #444;
+    font-size: 17px;
+    margin: 0 0 8px 0;
+    font-style: italic;
+  }
+
+  .entry {
+    margin-bottom: 22px;
+    padding-left: 12px;
+    border-left: 3px solid #000;
+  }
+
+  .entry:last-child { margin-bottom: 0; }
+
+  ul {
+    list-style: none;
+    margin: 6px 0 10px 0;
+    padding: 0;
+  }
+
+  li {
+    margin-bottom: 6px;
+    padding-left: 22px;
+    position: relative;
+  }
+
+  li::before {
+    content: "\25AA";
+    position: absolute;
+    left: 0;
+    color: #000;
+  }
+
+  .skill-row { margin-bottom: 10px; }
+  .skill-row b {
+    font-family: 'Press Start 2P', monospace;
+    font-size: 10px;
+    display: block;
+    margin-bottom: 4px;
+  }
+
+  footer {
+    text-align: center;
+    font-size: 16px;
+    color: #555;
+    margin-top: 10px;
+  }
+
+  footer .btn { margin-top: 10px; }
+
+  @media (max-width: 480px) {
+    h1 { font-size: 16px; }
+    h2 { font-size: 11px; }
+    h3 { font-size: 11px; }
+  }
+
+</style>
+</head>
+<body>
+
+<header>
+  <h1>SUBHOJEET PRASAD</h1>
+  <p class="tagline">Lead Developer · Co-Founder, Lantern Studio · CS Student</p>
+  <div class="contact-row">
+    <a class="btn" href="mailto:subhojeetprasad123@gmail.com">✉ EMAIL</a>
+    <a class="btn" href="tel:+919091312993">☎ CALL</a>
+    <a class="btn" href="https://github.com/subhojeetprasad">GITHUB</a>
+    <a class="btn" href="https://linkedin.com/in/subhojeetprasad">LINKEDIN</a>
+    <a class="btn" href="https://leetcode.com/Prasad1-S">LEETCODE</a>
+  </div>
+</header>
+
+<nav>
+  <a href="#experience">EXPERIENCE</a>
+  <a href="#projects">PROJECTS</a>
+  <a href="#publications">PUBLICATIONS</a>
+  <a href="#achievements">ACHIEVEMENTS</a>
+  <a href="#skills">SKILLS</a>
+  <a href="#education">EDUCATION</a>
+</nav>
+
+<section id="experience">
+  <h2>EXPERIENCE</h2>
+  <div class="entry">
+    <h3>Lead Developer &amp; Co-Founder — Lantern Studio (formerly Orbyts)</h3>
+    <p class="meta">April 2026 to Present — Kolkata, WB (Remote)</p>
+    <ul>
+      <li>Co-founded a dev agency now rebranding from Orbyts to Lantern Studio, offering web development, AI agents, and automation services.</li>
+      <li>Serving as lead developer on a full client engagement: a 22-page site for a tax and compliance firm, covering the homepage, service pages, blog, legal pages, and SEO infrastructure.</li>
+      <li>Own technical delivery end-to-end — architecture, deployment (Cloudflare Pages), and integrations (contact forms, Google Business Profile).</li>
+    </ul>
+    <div class="link-row">
+      <a class="linkbtn" href="https://orbyts.tech">ORBYTS.TECH ↗</a>
+      <a class="linkbtn" href="https://lanternstudio.in">LANTERNSTUDIO.IN (SOON) ↗</a>
+    </div>
+  </div>
+</section>
+
+<section id="projects">
+  <h2>PROJECTS</h2>
+
+  <div class="entry">
+    <h3>Silent Handoff</h3>
+    <p class="meta">MCP-Based Clinical Shift Handoff Generation Server — Hackathon Build</p>
+    <ul>
+      <li>Engineered an MCP server pulling live FHIR R4 patient data into Groq's LLaMA 3.3 70B to auto-generate SBAR / IPASS / SOAP handoff briefs.</li>
+      <li>Built a deterministic, LOINC-grounded triage engine where the LLM can only escalate, never lower, the pre-calculated acuity floor.</li>
+      <li>Integrated NIH RxNav and ClinicalTrials.gov for verified drug-interaction checks and trial lookups, cutting hallucination risk.</li>
+    </ul>
+    <div class="link-row"><a class="linkbtn" href="#">VIEW PROJECT ↗</a></div>
+  </div>
+
+  <div class="entry">
+    <h3>Docu-Vault</h3>
+    <p class="meta">Access-Controlled Versioned Document Collaboration Platform</p>
+    <ul>
+      <li>Designed a role-aware access model enforcing authorization at the database and API layers to prevent unauthorized reads and writes.</li>
+      <li>Implemented transaction-driven versioning to maintain integrity of document states under concurrent updates.</li>
+      <li>Integrated OAuth-based authentication with server-side sessions for secure, scalable user auth and session persistence.</li>
+    </ul>
+    <div class="link-row"><a class="linkbtn" href="#">VIEW PROJECT ↗</a></div>
+  </div>
+
+  <div class="entry">
+    <h3>Cat-Room</h3>
+    <p class="meta">Real-Time Room-Based Communication System</p>
+    <ul>
+      <li>Implemented WebSocket-based real-time messaging with efficient room-scoped broadcasting.</li>
+      <li>Designed secure, collision-free room creation using cryptographic techniques.</li>
+      <li>Managed dynamic room lifecycle (creation and cleanup) to prevent stale connections and memory leaks.</li>
+    </ul>
+    <div class="link-row"><a class="linkbtn" href="#">VIEW PROJECT ↗</a></div>
+  </div>
+
+  <div class="entry">
+    <h3>Personal AI Assistant Chatbot</h3>
+    <p class="meta">CV-Based Assistant</p>
+    <ul>
+      <li>Developed an AI-powered personal assistant chatbot to answer queries related to skills, projects, and experience.</li>
+      <li>Integrated Dialogflow for intent detection and context-aware conversational responses.</li>
+      <li>Built a Node.js and Express.js backend to manage API communication between the frontend and Dialogflow.</li>
+    </ul>
+    <div class="link-row"><a class="linkbtn" href="#">VIEW PROJECT ↗</a></div>
+  </div>
+</section>
+
+<section id="publications">
+  <h2>PUBLICATIONS</h2>
+  <div class="entry">
+    <h3>Hierarchical Deep Learning Ensemble Framework for Multi-Class Rice Foliar Disease Diagnosis</h3>
+    <p class="meta">JCMM — Co-Author</p>
+    <ul>
+      <li>Co-authored a deep learning-based ensemble framework for rice leaf disease diagnosis.</li>
+      <li>Conducted comparative analysis of 7 CNN architectures using transfer learning.</li>
+    </ul>
+    <div class="link-row"><a class="linkbtn" href="#">READ PAPER ↗</a></div>
+  </div>
+</section>
+
+<section id="achievements">
+  <h2>ACHIEVEMENTS &amp; CERTIFICATIONS</h2>
+  <ul>
+    <li>Oracle Cloud Infrastructure AI — Associate (October 2025)</li>
+    <li>Python for Data Science, NPTEL — Topper, top 1% (August 2025)</li>
+    <li>Introduction to Machine Learning, NPTEL — Elite (September 2025)</li>
+    <li>Competitive Programming — 80+ questions solved on LeetCode, 71-day streak</li>
+  </ul>
+</section>
+
+<section id="skills">
+  <h2>SKILLS</h2>
+  <div class="skill-row">
+    <b>PROGRAMMING LANGUAGES</b>
+    Java, Python, SQL, JavaScript
+  </div>
+  <div class="skill-row">
+    <b>BACKEND DEVELOPMENT</b>
+    Node.js, Express.js, Spring Boot, RESTful API Design, Server Side Rendering (SSR)
+  </div>
+  <div class="skill-row">
+    <b>DATABASES</b>
+    PostgreSQL, MySQL
+  </div>
+  <div class="skill-row">
+    <b>CLOUD &amp; AI SERVICES</b>
+    Google Cloud Platform (GCP), Dialogflow, Groq AI, Google ADK
+  </div>
+  <div class="skill-row">
+    <b>DATA ANALYTICS &amp; VISUALIZATION</b>
+    NumPy, Pandas, Matplotlib, Seaborn
+  </div>
+  <div class="skill-row">
+    <b>SYSTEM DESIGN FUNDAMENTALS</b>
+    Database Design, API Design, Caching Basics
+  </div>
+</section>
+
+<section id="education">
+  <h2>EDUCATION</h2>
+  <div class="entry">
+    <h3>Gargi Memorial Institute of Technology, Kolkata, WB</h3>
+    <p class="meta">B.Tech in Computer Science &amp; Engineering — 2023 to 2027 — CGPA 8.10</p>
+  </div>
+</section>
+
+<footer>
+  <p>Last updated September 2026.</p>
+  <a class="btn" href="#top">↑ BACK TO TOP</a>
+</footer>
+
+</body>
+</html>
